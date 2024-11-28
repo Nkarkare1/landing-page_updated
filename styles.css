@@ -1,0 +1,124 @@
+body {
+<<<<<<< HEAD
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, serif;
+=======
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+>>>>>>> e23a511f5f39b903903540f0f073c044697158ad
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+<<<<<<< HEAD
+    outline: 2px solid green;
+    background-color: #1F2937;
+    flex-grow: 1;
+}
+
+.header p {
+   font-size: 18px;
+   color: #E5E7EB; 
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.header h3 {
+    color: #F9FAF8;
+    font-size: 26px;
+=======
+    outline: 2px solid red;
+    background-color: #1F2937;
+>>>>>>> e23a511f5f39b903903540f0f073c044697158ad
+}
+
+.header .logo-and-links {
+    display: flex;
+<<<<<<< HEAD
+    justify-content: space-between;
+    margin: 10px 370px;
+}
+
+.header button {
+    border-radius: 10px;
+    color: white;
+    background-color: #3882F6;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    font-weight: 900;
+=======
+    justify-content: space-around;
+
+>>>>>>> e23a511f5f39b903903540f0f073c044697158ad
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.hero {
+    display: flex;
+    height: 30%;
+<<<<<<< HEAD
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+=======
+    gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+>>>>>>> e23a511f5f39b903903540f0f073c044697158ad
+}
+
+.hero-text {
+    display: flex;
+<<<<<<< HEAD
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.random-info {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+=======
+    width: 220px;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 50%;
+}
+>>>>>>> e23a511f5f39b903903540f0f073c044697158ad
